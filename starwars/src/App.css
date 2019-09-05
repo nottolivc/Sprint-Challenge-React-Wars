@@ -3,6 +3,23 @@
 }
 .Header {
   color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  text-shadow: 2px 2px 5px #aaa;
 }
 /* write your parent styles in here for your App.js */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  line-height: 10px;
+  background-color: white;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: black;
+  box-shadow: 2px 2px #aaa;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
